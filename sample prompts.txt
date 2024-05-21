@@ -1,0 +1,15 @@
+curl -X POST http://127.0.0.1:5000/command -H "Content-Type: application/json" -d '{"command": "post a tweet saying Hello Twitter!"}'
+
+curl -X POST http://127.0.0.1:5000/command -H "Content-Type: application/json" -d '{"command": "post a tweet saying Excited about the new AI advancements!"}'
+
+curl -X POST http://127.0.0.1:5000/command -H "Content-Type: application/json" -d '{"command": "post a tweet saying Learning Python is fun! #coding"}'
+
+curl -X POST http://127.0.0.1:5000/command -H "Content-Type: application/json" -d '{"command": "post a tweet saying Good morning, world! ☀️"}'
+
+curl -X POST http://127.0.0.1:5000/command -H "Content-Type: application/json" -d '{"command": "post a tweet saying Join us for a live Q&A session tomorrow at 3 PM PST!"}'
+
+curl -X POST http://127.0.0.1:5000/command -H "Content-Type: application/json" -d '{"command": "post a tweet saying Thanks for the support @username!"}'
+
+# Replace <tweet_id> with the actual ID of the tweet you want to delete
+curl -X POST http://127.0.0.1:5000/command -H "Content-Type: application/json" -d '{"command": "delete tweet <tweet_id>"}'
+
